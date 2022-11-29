@@ -31,6 +31,7 @@ nav  {
   overflow: hidden;
 }
 
+
 nav .logo {
   background-color: #ffffff;
   display: inline;
@@ -131,4 +132,7 @@ p {
   margin: 3%;
   font-size: 125%;
   
+}
+div {
+position: relative;
 }
