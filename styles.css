@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+header {
+  padding: 5%;
+}
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: Lora, sans-serif;
+  font-weight: bold;
+}
+nav  {
+  text-align: right;
+  font-weight: bold;
+  font-size: 140%;
+  width: 100%;
+  background-color: #ffffff;
+  display: inline;
+  padding: 5.51234568764654637%;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+nav .logo {
+  background-color: #ffffff;
+  display: inline;
+  width: 20%;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  border: 2px solid; white;
+}
+
+
+nav .nav-menu {
+   width: 80%;
+  display: inline;
+  z-index: 5;
+  padding-top: 5%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  
+}
+
+.nav-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  z-index: 5;
+  margin: 2%;
+  overflow: hidden;
+  padding: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #ffffff;
+  
+  
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: #ffffff;
+ 
+}
+
+nav img {
+  left: 0;
+  width: 14.57%;
+  position: fixed;
+ 
+  
+  
+}
+
+
+main {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index:4;
+  left:0.5%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* do not disturbe the above code */
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width; 100%;
+  justify-content: space-around;
+}
+
+.container > span {
+  
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+span img {
+  height: 35vh;
+  width: auto;
+  position: relative;
+ 
+}
+
+p {
+  color: #ffffff;
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  margin: 3%;
+  font-size: 125%;
+  
+}
