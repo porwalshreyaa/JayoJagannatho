@@ -79,9 +79,8 @@ header nav div h1 {
 }
 
 .nav-link:hover {
-  background-color: black;
-
-  color: #ffffff;
+  background-color: black;  
+  color: white;
 }
 
 nav img {
