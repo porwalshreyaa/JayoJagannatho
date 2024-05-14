@@ -1,12 +1,11 @@
 * {
 
-  
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
 }
 
 main h1, h2 {
@@ -58,36 +57,19 @@ nav .nav-menu {
   right: 0;
   overflow: hidden;*/
 }
-header nav div h1 {
-  text-align: center;
-  
-  font-family: Lora, sans-serif;
+/* header nav div h1 {
+  font-family:monospace, sans-serif;
   font-weight: bold;
-
   color: #000000;
   padding: 2%;
-}
-.nav-link {
-  font-weight: bold;
-  text-decoration: none;
-  color: #000000;
-  z-index: 5;
-  padding: 5%;
-  overflow: hidden;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
-}
+} */
 
-.nav-link:hover {
-  background-color: black;  
-  color: white;
-}
 
 nav img {
-  border: 2px solid; white;
+  border: 2px solid white;
   left: 0;
   top: 1%;
-  width: 10%;
+  width: 100px;
   position: fixed;  
   overflow: hidden;
 }
@@ -97,8 +79,6 @@ nav img {
  
 
 main {
-  background-color: black;
-  width: 100vw;
   height: 100vh;
   
   z-index:4;
@@ -113,7 +93,7 @@ main {
 .container {
   display: flex;
   flex-flow: row wrap;
-  width; 100%;
+  width: 100%;
   justify-content: space-around;
 }
 
@@ -140,4 +120,25 @@ p {
   margin: 3%;
   font-size: 125%;
   position: relative;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  color: azure;
+}
+
+.nav-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  z-index: 5;
+  padding: 5%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.nav-item > a:hover {
+  background-color: #e0e0e0;
 }
